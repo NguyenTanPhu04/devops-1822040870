@@ -1,3 +1,7 @@
-document.getElementById("btn-test").addEventListener("click", function () {
-    alert("Website đã hoạt động thành công!");
+
+const helloButton = document.getElementById("helloButton");
+const message = document.getElementById("message");
+
+helloButton.addEventListener("click", function () {
+    message.textContent = "Chúc mừng! JavaScript đã hoạt động thành công.";
 });
